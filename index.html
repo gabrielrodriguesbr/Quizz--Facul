@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz: TI e Sustentabilidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Tela de Boas-Vindas -->
+    <div id="welcome-screen" class="screen">
+      <h2>Quiz: 💻 TI e Sustentabilidade 🌱!</h2>
+      <button id="start-btn">Iniciar Quiz</button>
+    </div>
+
+    <!-- Tela do Quiz -->
+    <div id="quiz-container" class="screen" style="display: none;">
+      <div id="quiz"></div>
+      <button id="next-btn" style="display:none;">Próxima</button>
+    </div>
+
+    <!-- Tela de Resultados e Recursos -->
+    <div id="results-screen" class="screen" style="display: none;">
+      <h2>Você concluiu o quiz!</h2>
+      <p id="score-text"></p>
+      <div id="resource-links">
+        <h3>Para saber mais sobre TI e Sustentabilidade, confira os links abaixo:</h3>
+        <ul>
+          <li><a href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/" target="_blank">ONU - Objetivos de Desenvolvimento Sustentável</a></li>
+          <li><a href="https://www.greenpeace.org/brasil/" target="_blank">Greenpeace Brasil</a></li>
+          <li><a href="https://escolasuperior.butantan.gov.br/assets/documentos/CMI/receitas-2017.pdf" target="_blank">Receitas de Reaproveitamento</a></li>
+        </ul>
+      </div>
+      <button id="restart-btn">Reiniciar Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
