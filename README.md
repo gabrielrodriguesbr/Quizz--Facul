@@ -1,7 +1,8 @@
 # 🎯 Quizz - Facul
 
-Projeto desenvolvido como parte dos estudos em **Análise e Desenvolvimento de Sistemas**, com foco em **Front-End** e lógica de programação.  
-Este repositório contém um sistema de **quiz interativo**, onde o usuário responde perguntas e recebe feedback imediato de acertos/erros com a pontuação no final
+Projeto desenvolvido como parte dos estudos em **Análise e Desenvolvimento de Sistemas** para a **Atividade Extensionista** da graduação, com foco em **Front-End** e lógica de programação.
+
+Este repositório contém um sistema de **quiz interativo**, onde o usuário responde perguntas e recebe feedback imediato de acertos/erros com a pontuação no final.
 
 ---
 
